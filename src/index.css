@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* componets css */
+@layer components {
+
+    /* Style for containers */
+    .mycontainer {
+      @apply container px-40 py-16 mx-auto;
+    }
+  }
+
+  
